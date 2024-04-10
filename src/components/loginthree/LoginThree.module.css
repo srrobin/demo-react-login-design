@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Rubik+Mono+One&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+              
+}
+:root{
+    --text-color:#00368C;
+    --bg-color:#E6EBF4;
+}
+body{
+    background: var(--bg);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+main{
+    min-height: 100vh;
+    width: 100%;
+    background: url(../../assets/1.png);
+    background-position: center center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+.desc__part{
+    padding: 30px;
+    color: #E6EBF4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    display: flex;
+    align-items: center;
+    color: cornsilk;
+}
+.title__part {
+    font-size: 3.5rem;
+    font-weight: 200;
+    line-height: 54px;
+}
+.desc__area p {
+    max-width: 450px;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 20px 0;
+    line-height: 30px;
+}
+.social .socialicon {
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 30px;
+    display: inline-block;
+    transition: all .5s ease;
+}
+
+.social .socialicon:hover {
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+.login__part{
+    display: grid;
+    place-items: center;
+    background: rgba(51, 39, 75, 0.55);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.8px);
+    -webkit-backdrop-filter: blur(6.8px);
+    padding: 30px;
+}
+
+
+.login__wrapper{
+   width: 300px;
+}
+.login__title {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-block-end: 30px;
+}
+.form__container input {
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+    margin-block-end: 20px;
+    background: transparent;
+    color: #ffffff;
+}
+.forgot__pass a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-family: cursive;
+    transition: all .50s ease;
+}
+.forgot__pass a:hover {
+    text-decoration: underline;
+}
+input[type="submit"] {
+    background: #ffffff;
+    color: #282828;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-block-start: 30px;
+    font-size: 19px;
+    transition: all .50s ease;
+}
+
+input[type="submit"]:hover {
+    background: #39285b;
+    color: #f7fcff;
+    cursor: pointer;
+}

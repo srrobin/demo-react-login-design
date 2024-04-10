@@ -1,0 +1,136 @@
+*{
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  background: aqua;
+  position: absolute;
+  padding: 10px;
+  z-index: 999;
+  left: -200px;
+  transition: all .50s ease;
+}
+header.open{
+  left: 0px;
+}
+header nav ul li a {
+  text-transform: capitalize;
+  padding: 10px;
+  color: #282828;
+}
+span.menu {
+  position: absolute;
+  z-index: 1000;
+  background: #000;
+  color: #fff;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+}
+header ul {
+  margin: 17px;
+}
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+:root {
+  --trans-05: all 0.5s ease;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #131313;
+  font-size: 1rem;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding: 10px 8%;
+  background: #282828;
+  box-shadow: 1px 2px 30px 0 #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: var(--trans-05);
+  z-index: 999;
+}
+.toggle__menu {
+  color: aliceblue;
+  font-size: 25px;
+  margin: 3px;
+  display: none;
+}
+.logo {
+  font-size: 25px;
+  color: gold;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.active{
+  color: aqua;
+}
+
+
+
+@media (max-width: 576px) {
+  header {
+    padding: 10px 5%;
+  }
+  .toggle__menu {
+    display: block;
+  }
+  nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0px;
+    background: #b91e1e;
+    overflow: hidden;
+    transition: var(--trans-05);
+  }
+  nav.open {
+    height: 250px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 10px;
+  }
+
+} */
