@@ -18,10 +18,10 @@ Welcome to the React Login Page project! This project provides a simple and user
 ## Screenshots
 
 ### Login Page
-![Login Page](/images/login-page.png)
+![Login Page](https://github.com/srrobin/demo-react-login-design/blob/main/src/assets/scrnli_4_10_2024_5-57-11%20PM.png)
 
 ### Mobile View
-![Mobile View](/images/mobile-view.png)
+![Mobile View](https://github.com/srrobin/demo-react-login-design/blob/main/src/assets/scrnli_4_10_2024_5-57-37%20PM.png)
 
 ## Setup
 
