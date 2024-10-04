@@ -5,7 +5,7 @@ Welcome to the React Login Page project! This project provides a simple and user
 ## Features
 
 - **User-friendly Interface:** Clean and intuitive design for seamless user experience.
-- **Responsive Design:** Adapts to various screen sizes, ensuring compatibility across devices.
+- **Responsive Design:** Adapts to various screen sizes, ensuring device compatibility.
 - **Form Validation:** Validates username and password fields for better data integrity.
 - **Error Handling:** Provides feedback for invalid credentials or network errors.
 - **Modular Styling:** Utilizes CSS modules for modular and scoped styling.
